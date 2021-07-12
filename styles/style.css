@@ -1,0 +1,68 @@
+/* font style  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #E5E5E5;
+}
+/* nav style  */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    background-color: #562EFF;
+    height: 100px;
+}
+nav a{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 400;
+    color: #FFFFFF;
+    }
+.left-side{
+    padding-left: 270px;
+}
+.left-side a{
+        padding: 10px;
+    }
+.right-side{
+    display: flex;
+    align-items: center;
+    margin-right: 250px;
+    }
+.right-side a{
+    padding: 15px;
+}
+.container{
+    width: 870px;
+    background-color: #FFFFFF;
+    margin-left: 270px;
+
+}
+.top-players{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    color: #562EFF;
+    padding-top: 15px;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 30px;
+}
+.player{
+    display: flex;
+}
+.player img{
+    width: 200px;
+    height: 300px;
+}
+.team-duration{
+    display: flex;
+
+    align-items: center;
+    justify-content: space-between;
+}
+    
